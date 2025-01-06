@@ -58,7 +58,6 @@ nav {
     background-image: url("../img/top\ ba.avif  ");
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            background-position: center;
             border-radius: 10px;
             display: flex;
             flex-direction: column;
