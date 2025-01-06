@@ -1,0 +1,94 @@
+.logo {
+    font-weight: bolder;
+    font-size: 32px;
+    color: chocolate;
+}
+
+.button-nav {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    height: 35px;
+    width: 7rem;
+}
+
+nav {
+    height: 12vh;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+.button-nav:hover {
+    background-color: rgb(124, 3, 3);
+
+}
+
+
+.middle {
+    width: 80%;
+    display: flex;
+    height: 60vh;
+    margin: 15vh auto;
+}
+
+.middle .left {
+    margin-right: 50px;
+    width: 40%;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.middle .left h1 {
+    font-family: fantasy;
+    font-size: 4.4rem;
+    font-weight: bold;
+    color: #502314;
+}
+
+.middle .left h1 sup {
+    color: #502314;
+}
+
+.middle .right {
+    width: 60%;
+    background-image: url("../img/top\ ba.avif  ");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px; }
+
+.button1 {
+   margin-top: 10px;
+   width:21vw;
+   height: 7vh;
+   background-color: red;
+ color:white;
+ border-radius: 15px;
+ cursor: pointer;
+ border: none ;
+}
+.button2 {
+    margin-top: 10px;
+    width:21vw;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+  color:rgba(168, 168, 168, 0.699);
+  border-radius: 15px;
+  border:1px, solid, rgb(70, 70, 70);
+  cursor: pointer;
+ }
+ .card{
+    width: 50%;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+ }
+ 
