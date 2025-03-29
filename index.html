@@ -2,138 +2,101 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/burger-king.png" type="image/x-icon">
-    <link rel="stylesheet" href="files/idex.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <title>Burger King</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/burger-king.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
     <header>
-        <nav class="d-flex  justify-content-around align-items-center fixed-top">
-            <div>
-                <i class="fa-solid fa-bars"></i>
-            </div>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="opt-icon"><a href=""><i class="fa-solid fa-bars"></i></a></div>
             <div class="logo">
-                BURGERKING.
+                <a class="navbar-brand logo" href="#">Burger King</a>
             </div>
-            <div>
-                <i class="fa-solid fa-user"></i>
-                <button class="ms-2 button-nav"><i class="fa-solid fa-cart-shopping"></i> View cart</button>
+            <div class="right">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><button type="button" class="btn btn-danger"><i class="fa-solid fa-shopping-cart"></i> View
+                        Cart</button></a>
             </div>
         </nav>
+        <div class="middle">
+            <div class="left">
+                <h1>
+                    Start your BK<sup>®</sup> order.
+                </h1>
+                <button type="button" class="btn orange"><i class="fa-solid fa-bag-shopping"></i> Order Pickup</button>
+                <button type="button" class="btn white"><i class="fa-solid fa-truck"></i> Order Delivery</button>
+            </div>
+            <div class="right"></div>
+        </div>
     </header>
-    <div class="middle">
-        <div class="left">
-            <h1>Start your BK<sup>®</sup>order. </h1>
-            <div>
-                <button class="button1"> <i class="fa-solid fa-cart-shopping"></i> Order pickup</button>
-            </div>
-            <div>
-                <button class="button2"> <i class="fa-solid fa-cart-shopping"></i> Order pickup</button>
+
+    <div class="grid">
+        <div class="card">
+            <img src="Img/card.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Warm up this winter with a Melt Meal!</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn">Order Now</a>
             </div>
         </div>
-        <div class="right">
-
+        <div class="card">
+            <img src="Img/card.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Warm up this winter with a Melt Meal!</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Img/card.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Warm up this winter with a Melt Meal!</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Img/card.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Warm up this winter with a Melt Meal!</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
         </div>
     </div>
-    <!-- card -->
-    <div class="d-flex justify-content-center">
-        <div class="card " style="width: 45%;">
-            <img src="img/1card.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card " style="width: 45%;">
-            <img src="img/99f36b3590f86a15388a4063e73374ee765e5c12-2000x1000.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
 
-    </div>
-    <div class="d-flex justify-content-center">
-        <div class="card " style="width: 45%;">
-            <img src="img/1card.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card " style="width: 45%;">
-            <img src="img/99f36b3590f86a15388a4063e73374ee765e5c12-2000x1000.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+    <ul class="nav justify-content-around fixed-bottom nav-bottom">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-kitchen-set"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-tag"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><i class="fa-solid fa-crown"></i></a>
+        </li>
+    </ul>
 
-    </div>
 
-    <div class="d-flex justify-content-center">
-        <div class="card " style="width: 45%;">
-            <img src="img/1card.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card " style="width: 45%;">
-            <img src="img/99f36b3590f86a15388a4063e73374ee765e5c12-2000x1000.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
 
-    </div>
 
-    <footer>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-bottom nav-bottom ">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav justify-content-evenly ">
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Offers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Revard</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
+</html>
